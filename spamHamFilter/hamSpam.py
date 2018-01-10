@@ -300,8 +300,102 @@ for i in range(5572):
     dataUF.iloc[i, 24] = freq 
                
                
+##Feature 24: Frequency of the word 'Please'
+##Column 25
+dataUF['FreqOf:PLEASE:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'Please')
+    dataUF.iloc[i, 25] = freq
                
-x = dataUF.iloc[:, 2:25].values
+
+##Feature 25: Frequency of the word 'Message'
+##Column 26
+dataUF['FreqOf:MESSAGE:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'MESSAGE')
+    dataUF.iloc[i, 26] = freq
+               
+               
+##Feature 26: Frequency of the word 'Txt'
+##Column 27
+dataUF['FreqOf:TXT:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'TXT')
+    dataUF.iloc[i, 27] = freq
+               
+               
+##Feature 27: Frequency of the word 'Sex'
+##Column 28
+dataUF['FreqOf:SEX:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'SEX')
+    dataUF.iloc[i, 28] = freq
+               
+               
+##Feature 28: Frequency of the word 'Sexy'
+##Column 29
+dataUF['FreqOf:SEXY:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'SEXY')
+    dataUF.iloc[i, 29] = freq
+               
+
+##Feature 29: Frequency of the word 'Why'
+##Column 30
+dataUF['FreqOf:WHY:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'WHY')
+    dataUF.iloc[i, 30] = freq               
+               
+               
+
+##Feature 30: Frequency of the word 'When'
+##Column 31
+dataUF['FreqOf:WHEN:'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii','ignore')
+    freq = countFreq(message, 'WHEN')
+    dataUF.iloc[i, 31] = freq      
+               
+               
+#Feature 31: Number of words in a message:
+#Feature 32
+dataUF['NoOfWordsInTheMessage'] = 0
+
+for i in range(5572):
+    message = (dataUF.iloc[i, 0])
+    message = unicodedata.normalize('NFKD', message).encode('ascii', 'ignore')
+    message = message.split(' ')
+    dataUF.iloc[i, 32] = len(message)
+
+
+
+               
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################               
+x = dataUF.iloc[:, 2:33].values
 y = dataUF.iloc[:, 1:2].values
 
 from sklearn.preprocessing import LabelEncoder
@@ -309,11 +403,11 @@ scY = LabelEncoder()
 y = scY.fit_transform(y)
 
 from sklearn.cross_validation import train_test_split
-xTrain, xTest, yTrain, yTest = train_test_split(x,y,test_size=0.1,random_state=0)
+xTrain, xTest, yTrain, yTest = train_test_split(x,y,test_size=0.2,random_state=5)
 
 
 from sklearn.neighbors import KNeighborsClassifier
-knn = KNeighborsClassifier(n_neighbors = 5)             #Best at 5 right now.
+knn = KNeighborsClassifier(n_neighbors = 2)      #Best at 2 right now. Best at 5 w/out 32nd freature.
 knn.fit(xTrain, yTrain)
 yPred = knn.predict(xTest)
 
