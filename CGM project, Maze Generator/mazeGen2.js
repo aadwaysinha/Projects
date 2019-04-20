@@ -1,18 +1,19 @@
 console.log('MaxGen2 is connected');
 
 var len = 40;
-var gridSide = 400;
+var gridSide = 600;
 var rows = gridSide/len;
 var cols = rows;
 var grid = [];
 var current;
 var next = undefined;
 var firstLoop = true;
+var stack = [];
 
 function setup(){
     createCanvas(gridSide, gridSide);
     background(51);
-    frameRate(5);
+    frameRate(15);
     var pos = 0;
     for(let x=0; x<gridSide; x+=len)
     {
@@ -159,6 +160,16 @@ class Cell{
                 rect(x, y, len, len);
             }
         };
+
+        this.markStart = function(){
+            fill(0, 200, 0)
+            rect(x, y, len, len);
+        }
+
+        this.markEnd = function(){
+            fill(200, 0, 0)
+            rect(x, y, len, len);
+        }
     }
 }
 
@@ -196,18 +207,28 @@ function draw()
         grid[i].show();
     
     console.log('CURRENT INDEX: ' + current.indexxx)
+    next = undefined;
     next = current.nextNeighbor();
     if(next){
+        stack.push(current);
         next.visited = true;
         next.colorCell(1);
         removeWalls(current, next);
         current = next;
         next.colorCell(0);
-    }else{
+    }
+    else if(stack.length > 0){
+        current = stack.pop();
+        current.colorCell(1);
+        current.colorCell(0);
+    }
+    else{
         console.log('NEXT NEIGHBOR NOT FOUND!')
         for(var i=0; i<grid.length; i++)
             console.log(grid[i])
         noLoop();
+        grid[0].markStart();
+        grid[Math.floor(Math.random()*99 + 1)].markEnd();
     }
     console.log("\n\n\n\n");
 }
