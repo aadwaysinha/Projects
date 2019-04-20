@@ -35,15 +35,16 @@ function index(i, j)
     return i*cols + j;
 }
 
-function isValidIndeX(indexx)
+function isValidIndeX(i, j, indexx)
 {
-    return (indexx >=0 && indexx <100);
+    console.log(i + "  " + j);
+    return ((i >= 0 && j >= 0) && (i < cols && j < cols));
 }
 
 class Cell{
     constructor(y, x){
-        this.i = Math.floor(x/len);
-        this.j = Math.floor(y/len);
+        this.j = Math.floor(x/len);
+        this.i = Math.floor(y/len);
         this.visited = false;
         this.indexxx = index(this.i, this.j);
 
@@ -88,25 +89,45 @@ class Cell{
 
         this.nextNeighbor = function(){
             var neighbors = [];
-            
-            let topIndex = this.indexxx - cols;
-            let rightIndex = this.indexxx + 1;
-            let bottomIndex = this.indexxx + cols; 
-            let leftIndex = this.indexxx - 1;
+            let topIndex = false;
+            let rightIndex = false;
+            let bottomIndex = false;
+            let leftIndex = false;
+
+            if(isValidIndeX(this.i-1, this.j, index(this.i-1, this.j))){
+                topIndex = this.indexxx - cols;
+            }
+            if(isValidIndeX(this.i, this.j+1, index(this.i, this.j+1))){
+                rightIndex = this.indexxx + 1;
+            }
+            if(isValidIndeX(this.i+1, this.j, index(this.i+1, this.j))){
+                bottomIndex = this.indexxx + cols;
+            }
+            if(isValidIndeX(this.i, this.j-1, index(this.i, this.j-1))){
+                leftIndex = this.indexxx - 1;
+            }
+
             console.log(topIndex);
             console.log(rightIndex);
             console.log(bottomIndex);
             console.log(leftIndex);
             
 
-            if(isValidIndeX(topIndex) && !grid[topIndex].visited)
+            if(topIndex && !grid[topIndex].visited){
                 neighbors.push(topIndex)
-            if(isValidIndeX(rightIndex) && !grid[rightIndex].visited)
+            }
+
+            if(rightIndex && !grid[rightIndex].visited){
                 neighbors.push(rightIndex)
-            if(isValidIndeX(bottomIndex) && !grid[bottomIndex].visited)
+            }
+
+            if(bottomIndex && !grid[bottomIndex].visited){
                 neighbors.push(bottomIndex)
-            if(isValidIndeX(leftIndex) && !grid[leftIndex].visited)
+            }
+
+            if(leftIndex && !grid[leftIndex].visited){
                 neighbors.push(leftIndex)
+            }
 
             console.log('UNVISITED NEIGHBORS: ');
             for(var i=0; i<neighbors.length; i++)
