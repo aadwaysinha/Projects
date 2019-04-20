@@ -1,0 +1,144 @@
+html, body{
+    background-image: url('https://i.pinimg.com/originals/4d/6b/2b/4d6b2b882a8ef428976675ed29518d41.jpg');
+    background-repeat: repeat;
+    /* background: blue; */
+    height: 100%;
+    overflow-y: hidden;
+    margin-right: 10px;
+    /* border: 5px solid green; */
+}
+
+
+/* CLASSES */
+
+.jumbotron{
+    font-family: 'Indie Flower', cursive;
+    /* border: 2px solid blue; */
+    height: 10%;
+    background: #2A363B ;
+    color: #fffff2;
+    border-radius: 0px;
+    /* border-bottom-right-radius: 10%; */
+    /* border-bottom-left-radius: 5%; */
+}
+
+
+
+/* IDs */
+
+#kioskHeading{
+    font-size: 5.5em;
+}
+
+#micArea{
+    padding: 0px;
+    margin: 0px;
+    /* border: 10px solid yellow; */
+}
+
+#kioskHeading{
+    color: white;
+    text-align: center;
+}
+
+#micArea{
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+#micIcon{
+    padding: 3%;
+    position: absolute;
+    /* background: blue; */
+    left: 35%;
+    top: 25%;
+    height: 100%;
+    width: 29%;
+    outline:none;
+    /* border: 2px solid green; */
+}
+
+#micIconID{
+    border-radius: 55%;
+    /* border: 2px solid white; */
+    width: 88%;
+    height: 45%;
+    margin: 10px;
+    outline:none;
+}
+
+#textAreaID{
+    position: relative;
+    width: 19%;
+}
+
+.submitBTN {
+    overflow: hidden;
+    position: absolute;
+    top: 88%;
+    right: 47%;
+    width: 7%;
+    height: 3.3%;
+    border: 2px solid black;
+}
+
+#transcriptForm{
+    background: #2A363B;
+    color: white;
+    border: 0px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    bottom: 15%;
+    left: 34.5%;
+}
+
+.operateButtons{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    display: block;
+    bottom: 12%;
+    width: 100%;
+    outline: none;
+    border: 0px;
+}
+
+#pauseBTN{
+    position: absolute;
+    overflow: hidden;
+    width: 7%;
+    right: 58%;
+}
+
+#clearBTN{
+    position: absolute;
+    overflow: hidden;
+    width: 7%;
+    left: 57%;
+}
+
+.btn{
+    font-family: 'Indie Flower', cursive;
+    padding: 0px 0px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #de2555;
+    border: 0px solid hotpink;
+}
+
+textarea {
+    background: #2A363B;
+    border: 0px;
+    color: white;
+    overflow: auto;
+    resize: none;
+    width: 18%;
+    height: 10%;
+    position: absolute;
+    left: 39.6%;
+    top: 74%;
+}

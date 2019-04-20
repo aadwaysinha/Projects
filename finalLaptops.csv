@@ -1,0 +1,284 @@
+,Product,TypeName,Cpu,Ram,Memory,OpSys,Price
+13,Inspiron 3567,Notebook,i3,4,256GB,Windows 10,1.0
+16,Inspiron 3567,Notebook,i7,8,256GB,Windows 10,2.0
+19,XPS 13,Ultrabook,i5,8,128GB,Windows 10,2.0
+23,Inspiron 5379,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+25,Inspiron 3567,Notebook,i3,4,1TB,Windows 10,1.0
+27,Inspiron 5570,Notebook,i5,8,256GB,Windows 10,2.0
+28,Latitude 5590,Ultrabook,i7,8,256GB,Windows 10,2.0
+33,XPS 13,Ultrabook,i7,16,64GB,Windows 10,3.0
+37,Inspiron 5770,Notebook,i5,8,128GB,Windows 10,2.0
+41,Inspiron 7577,Gaming,i7,16,256GB,Windows 10,2.0
+44,Inspiron 7773,2 in 1 Convertible,i5,12,1TB,Windows 10,2.0
+48,Inspiron 3567,Notebook,i5,4,256GB,Windows 10,1.0
+55,Inspiron 3576,Notebook,i7,8,256GB,Windows 10,2.0
+60,Inspiron 5770,Notebook,i7,16,256GB,Windows 10,2.0
+61,Vostro 5471,Ultrabook,i5,8,256GB,Windows 10,2.0
+71,Inspiron 5370,Ultrabook,i7,8,256GB,Windows 10,2.0
+72,Inspiron 5570,Notebook,i7,8,256GB,Windows 10,2.0
+77,Inspiron 5570,Notebook,i7,8,128GB,Windows 10,2.0
+80,Latitude 5590,Ultrabook,i5,8,256GB,Windows 10,2.0
+85,Inspiron 7577,Gaming,i7,16,128GB,Windows 10,2.0
+89,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+93,Inspiron 7577,Gaming,i5,8,256GB,Windows 10,2.0
+96,Inspiron 3567,Notebook,i7,8,1TB,Linux,1.0
+97,Inspiron 3567,Notebook,i3,4,256GB,Linux,1.0
+102,Inspiron 3576,Notebook,i5,8,1TB,Linux,1.0
+111,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+114,XPS 13,Ultrabook,i5,8,256GB,Windows 10,2.0
+117,Inspiron 7570,Notebook,i7,8,256GB,Windows 10,2.0
+128,Inspiron 5770,Notebook,i7,16,256GB,Windows 10,2.0
+130,Inspiron 5567,Notebook,i5,8,1TB,Windows 10,1.0
+131,Inspiron 3567,Notebook,i3,4,1TB,Windows 10,1.0
+150,Inspiron 5577,Gaming,i7,16,64GB,Windows 10,2.0
+151,Inspiron 7567,Gaming,i7,8,64GB,Windows 10,2.0
+158,Inspiron 5579,2 in 1 Convertible,i7,8,256GB,Windows 10,2.0
+162,Inspiron 3576,Notebook,i5,8,256GB,Windows 10,1.0
+167,Inspiron 5577,Gaming,i7,8,128GB,Windows 10,2.0
+175,Inspiron 3567,Notebook,i3,8,1TB,Windows 10,1.0
+180,Inspiron 5570,Notebook,i7,16,256GB,Linux,2.0
+181,XPS 13,Ultrabook,i5,8,256GB,Windows 10,2.0
+185,Inspiron 7773,Notebook,i7,16,64GB,Windows 10,2.0
+186,XPS 15,Notebook,i7,16,64GB,Windows 10,3.0
+189,Inspiron 5770,Notebook,i7,8,128GB,Windows 10,2.0
+194,Inspiron 5379,2 in 1 Convertible,i7,8,1TB,Windows 10,2.0
+200,Inspiron 7577,Gaming,i7,16,1TB,Windows 10,3.0
+206,Inspiron 3567,Notebook,i3,6,1TB,Windows 10,1.0
+207,XPS 13,Ultrabook,i7,8,256GB,Windows 10,3.0
+208,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+215,Inspiron 5370,Ultrabook,i7,8,256GB,Windows 10,2.0
+218,Latitude 5490,Ultrabook,i5,8,256GB,Windows 10,2.0
+219,Inspiron 5379,2 in 1 Convertible,i7,16,64GB,Windows 10,2.0
+220,Inspiron 3576,Notebook,i5,8,256GB,Linux,1.0
+224,Alienware 17,Gaming,i7,16,256GB,Windows 10,3.0
+226,Inspiron 5567,Notebook,i7,16,1TB,Windows 10,2.0
+233,Vostro 5468,Notebook,i5,8,256GB,Windows 10,2.0
+235,Inspiron 5567,Notebook,i7,16,256GB,Linux,2.0
+243,Inspiron 5577,Gaming,i5,8,256GB,Windows 10,2.0
+245,Inspiron 5570,Notebook,i7,8,128GB,Windows 10,2.0
+250,Inspiron 5579,2 in 1 Convertible,i7,8,1TB,Windows 10,2.0
+255,Vostro 5370,Ultrabook,i5,8,256GB,Windows 10,2.0
+260,Inspiron 5770,Notebook,i7,8,128GB,Windows 10,2.0
+263,Vostro 3568,Notebook,i5,4,1TB,Windows 10,1.0
+264,Inspiron 3567,Notebook,i5,8,1TB,Windows 10,1.0
+265,Inspiron 5579,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+272,Inspiron 3576,Notebook,i7,8,256GB,Linux,1.0
+275,Inspiron 5567,Notebook,i7,12,1TB,Windows 10,1.0
+276,Inspiron 5770,Notebook,i7,8,128GB,Linux,2.0
+281,Inspiron 3567,Notebook,i3,4,1TB,Linux,1.0
+293,XPS 15,Notebook,i7,8,256GB,Windows 10,2.0
+297,Precision 7720,Workstation,i7,16,256GB,Windows 10,3.0
+311,XPS 13,Ultrabook,i7,16,1TB,Windows 10,3.0
+315,Inspiron 5570,Notebook,i5,8,128GB,Windows 10,2.0
+329,XPS 15,Notebook,i7,32,1TB,Windows 10,3.0
+336,Inspiron 7570,Ultrabook,i5,8,128GB,Windows 10,2.0
+339,Inspiron 7570,Notebook,i5,8,256GB,Windows 10,2.0
+344,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+347,Latitude 5590,Ultrabook,i7,16,256GB,Windows 10,2.0
+349,Inspiron 5570,Ultrabook,i5,8,1TB,Windows 10,1.0
+350,XPS 15,Notebook,i7,16,64GB,Windows 10,3.0
+355,Inspiron 5570,Notebook,i7,8,128GB,Windows 10,2.0
+357,Inspiron 7577,Gaming,i5,8,1TB,Windows 10,2.0
+358,Inspiron 3567,Notebook,i5,8,64GB,Windows 10,1.0
+359,Latitude 7480,Notebook,i5,8,256GB,Windows 10,2.0
+366,Inspiron 5770,Notebook,i5,8,128GB,Windows 10,2.0
+368,Inspiron 5567,Notebook,i7,8,256GB,Windows 10,2.0
+374,Inspiron 5379,2 in 1 Convertible,i7,8,256GB,Windows 10,2.0
+387,Precision 3510,Workstation,i5,8,500GB,Windows 10,2.0
+388,Precision 5520,Workstation,i7,8,256GB,Windows 10,3.0
+394,Inspiron 5567,Notebook,i7,8,256GB,Linux,2.0
+398,Precision M5520,Workstation,i7,8,256GB,Windows 10,3.0
+407,Latitude 7480,Ultrabook,i7,8,64GB,Windows 10,2.0
+415,Inspiron 3567,Notebook,i5,4,256GB,Linux,1.0
+416,Latitude 3380,Notebook,i3,4,128GB,Windows 10,1.0
+418,Inspiron 3567,Notebook,i5,8,1TB,Windows 10,1.0
+424,Alienware 17,Gaming,i7,16,256GB,Windows 10,3.0
+425,Inspiron 7577,Gaming,i7,8,128GB,Windows 10,2.0
+426,Inspiron 5570,Notebook,i7,8,256GB,Windows 10,2.0
+427,Latitude 5480,Ultrabook,i7,8,256GB,Linux,2.0
+441,Inspiron 5570,Notebook,i5,4,256GB,Windows 10,2.0
+445,Latitude 5480,Notebook,i5,8,256GB,Windows 10,2.0
+451,Precision 3520,Workstation,i7,16,256GB,Windows 10,3.0
+454,Inspiron 5570,Notebook,i7,8,128GB,Windows 10,2.0
+456,Alienware 17,Notebook,i7,8,1TB,Windows 10,3.0
+467,Inspiron 5570,Notebook,i5,8,64GB,Windows 10,2.0
+473,Latitude 7390,Ultrabook,i5,8,256GB,Windows 10,3.0
+475,Latitude E5470,Notebook,i3,8,128GB,Windows 10,2.0
+476,Precision M5520,Workstation,i7,8,256GB,Windows 10,3.0
+478,Inspiron 3576,Notebook,i5,8,1TB,Windows 10,1.0
+480,Inspiron 7570,Notebook,i7,8,64GB,Windows 10,2.0
+481,Vostro 3568,Notebook,i3,4,1TB,Windows 10,1.0
+486,Precision 3520,Workstation,i7,16,64GB,Windows 10,3.0
+487,XPS 15,Notebook,i7,16,64GB,Windows 10,3.0
+510,XPS 13,Ultrabook,i5,8,128GB,Windows 10,2.0
+512,Vostro 5568,Notebook,i5,8,1TB,Windows 10,2.0
+513,Inspiron 5570,Notebook,i7,16,256GB,Windows 10,2.0
+522,Latitude 5480,Notebook,i5,8,256GB,Windows 10,2.0
+524,Inspiron 5770,Notebook,i5,8,128GB,Linux,2.0
+528,Inspiron 3567,Notebook,i5,4,500GB,Windows 10,1.0
+529,Latitude 5580,Notebook,i5,8,256GB,Windows 10,2.0
+530,Alienware 17,Gaming,i7,16,128GB,Windows 10,3.0
+535,Latitude 5580,Notebook,i7,8,256GB,Windows 10,2.0
+536,Inspiron 5570,Notebook,i5,8,256GB,Windows 10,2.0
+540,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+541,Vostro 5468,Notebook,i3,4,128GB,Windows 10,2.0
+551,Latitude 5580,Notebook,i5,8,256GB,Windows 10,2.0
+552,Alienware 17,Gaming,i7,16,256GB,Windows 10,3.0
+559,Vostro 3568,Notebook,i3,4,1TB,Windows 10,1.0
+565,XPS 13,Ultrabook,i5,8,128GB,Windows 10,2.0
+566,Latitude 5580,Notebook,i5,4,500GB,Windows 10,2.0
+579,Inspiron 3567,Notebook,i7,8,256GB,Linux,2.0
+581,Latitude 5580,Notebook,i5,8,500GB,Windows 10,2.0
+583,Latitude 5580,Notebook,i7,16,256GB,Windows 10,2.0
+592,Inspiron 3179,2 in 1 Convertible,M ,4,128GB,Windows 10,1.0
+598,Latitude 5289,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+599,Precision 3520,Workstation,i7,8,256GB,Windows 10,2.0
+604,Vostro 3568,Notebook,i3,4,1TB,Linux,1.0
+611,Inspiron 7559,Gaming,i7,16,1TB,Windows 10,2.0
+612,Vostro 3568,Notebook,i3,4,1TB,Linux,1.0
+613,Inspiron 3567,Notebook,i3,4,1TB,Linux,1.0
+614,Latitude 5580,Notebook,i5,4,500GB,Linux,2.0
+616,Vostro 3568,Notebook,i5,4,128GB,Linux,1.0
+622,Inspiron 5570,Notebook,i5,4,1TB,Windows 10,2.0
+629,XPS 15,Notebook,i7,8,256GB,Windows 10,2.0
+631,Inspiron 7567,Gaming,i7,16,256GB,Windows 10,2.0
+636,XPS 13,Ultrabook,i5,8,256GB,Windows 10,3.0
+639,XPS 15,Notebook,i7,16,1TB,Windows 10,3.0
+652,XPS 13,Ultrabook,i5,8,256GB,Windows 10,2.0
+656,Inspiron 5570,Notebook,i7,8,256GB,Windows 10,2.0
+657,Inspiron 5570,Notebook,i7,16,256GB,Windows 10,2.0
+659,Alienware 17,Gaming,i7,32,1TB,Windows 10,3.0
+660,Latitude E7470,Notebook,i5,8,256GB,Windows 10,2.0
+666,Latitude 3580,Notebook,i5,8,1TB,Windows 10,2.0
+682,Alienware 15,Gaming,i5,16,128GB,Windows 10,3.0
+685,Alienware 15,Gaming,i7,16,256GB,Windows 10,3.0
+687,Inspiron 3567,Notebook,i3,4,1TB,Windows 10,1.0
+700,Inspiron 5577,Gaming,i5,8,1TB,Windows 10,2.0
+705,Vostro 5568,Notebook,i5,8,256GB,Windows 10,2.0
+711,Latitude 5480,Notebook,i5,8,256GB,Linux,2.0
+712,Vostro 5568,Notebook,i5,8,1TB,Linux,1.0
+714,Latitude 5580,Notebook,i5,16,64GB,Windows 10,2.0
+716,Latitude 5580,Notebook,i5,8,256GB,Windows 10,2.0
+723,Alienware 17,Gaming,i7,32,1TB,Windows 10,3.0
+726,Inspiron 5570,Notebook,i5,8,128GB,Windows 10,1.0
+727,Inspiron 5378,2 in 1 Convertible,i3,4,1TB,Windows 10,1.0
+728,Inspiron 5567,Notebook,i5,8,1TB,Linux,1.0
+731,Inspiron 3567,Notebook,i5,12,1TB,Windows 10,1.0
+737,Inspiron 5379,2 in 1 Convertible,i5,8,1TB,Windows 10,1.0
+740,Inspiron 7560,Notebook,i7,8,128GB,Windows 10,2.0
+741,Vostro 3568,Notebook,i3,8,256GB,Windows 10,1.0
+748,Latitude 5480,Notebook,i5,8,256GB,Windows 10,2.0
+758,Alienware 17,Gaming,i7,16,256GB,Windows 10,3.0
+761,Latitude 7280,Ultrabook,i7,16,256GB,Windows 10,3.0
+764,Latitude 3380,Notebook,i3,4,500GB,Windows 10,2.0
+767,Inspiron 7559,Gaming,i7,16,128GB,Windows 10,2.0
+770,Inspiron 5567,Notebook,i7,16,256GB,Windows 10,2.0
+773,Inspiron 7567,Gaming,i7,8,1TB,Windows 10,2.0
+780,Alienware 17,Gaming,i7,32,1TB,Windows 10,3.0
+789,Inspiron 7567,Gaming,i5,8,256GB,Windows 10,2.0
+797,Latitude 3580,Notebook,i5,8,128GB,Windows 10,2.0
+799,Vostro 5568,Notebook,i3,8,256GB,Windows 10,2.0
+802,XPS 13,Ultrabook,i5,8,256GB,Windows 10,2.0
+803,XPS 15,Notebook,i5,8,256GB,Windows 10,2.0
+808,Inspiron 7567,Gaming,i7,16,64GB,Windows 10,2.0
+813,Vostro 5568,Notebook,i7,8,1TB,Windows 10,2.0
+814,Vostro 3568,Notebook,i5,8,256GB,Windows 10,2.0
+818,Alienware 17,Gaming,i7,16,128GB,Windows 10,3.0
+819,Latitude 3480,Notebook,i5,4,500GB,Windows 10,2.0
+827,Latitude 3480,Notebook,i3,4,500GB,Windows 10,1.0
+835,Alienware 15,Gaming,i7,16,256GB,Windows 10,3.0
+841,Alienware 17,Gaming,i7,32,1TB,Windows 10,3.0
+843,Vostro 3568,Notebook,i5,8,128GB,Windows 10,1.0
+845,Vostro 3568,Notebook,i7,4,256GB,Windows 10,2.0
+852,Inspiron 5767,Notebook,i7,8,1TB,Linux,2.0
+855,Latitude 5580,Notebook,i5,8,128GB,Windows 10,2.0
+858,Inspiron 5368,Notebook,i5,8,1TB,Windows 10,1.0
+864,XPS 13,Ultrabook,i7,16,64GB,Windows 10,3.0
+869,Precision 3520,Workstation,i7,8,1TB,Windows 10,2.0
+875,Latitude 7280,Ultrabook,i7,8,256GB,Windows 10,2.0
+878,Vostro 5568,Notebook,i5,4,128GB,Windows 10,2.0
+886,Vostro 3568,Notebook,i3,4,1TB,Linux,1.0
+896,Inspiron 7567,Gaming,i7,8,1TB,Linux,2.0
+898,Vostro 3568,Notebook,i3,4,1TB,Windows 10,1.0
+899,Latitude 5580,Notebook,i5,8,500GB,Windows 10,2.0
+900,XPS 13,2 in 1 Convertible,i7,8,64GB,Windows 10,3.0
+902,XPS 13,2 in 1 Convertible,i7,16,256GB,Windows 10,2.0
+910,Latitude 5480,Notebook,i5,8,256GB,Windows 10,2.0
+918,Inspiron 7567,Gaming,i7,16,128GB,Windows 10,2.0
+920,Vostro 3568,Notebook,i5,4,1TB,Windows 10,1.0
+925,Latitude 3580,Notebook,i5,4,500GB,Windows 10,1.0
+928,Vostro 3568,Notebook,i5,4,1TB,Windows 10,1.0
+936,Vostro 3568,Notebook,i3,4,1TB,Windows 10,1.0
+938,Latitude 7480,Ultrabook,i5,8,256GB,Windows 10,2.0
+939,Alienware 17,Gaming,i7,16,1TB,Windows 10,3.0
+946,Latitude 7280,Ultrabook,i5,8,256GB,Windows 10,2.0
+948,Insprion 5767,Notebook,i3,4,1TB,Windows 10,1.0
+951,Latitude 7480,Ultrabook,i7,8,256GB,Windows 10,2.0
+955,Alienware 17,Gaming,i7,16,1TB,Windows 10,3.0
+956,XPS 13,2 in 1 Convertible,i5,8,256GB,Windows 10,3.0
+958,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+965,Inspiron 3567,Notebook,i3,4,1TB,Linux,1.0
+966,Latitude 5580,Notebook,i5,4,500GB,Windows 10,2.0
+968,Alienware 17,Gaming,i7,32,256GB,Windows 10,3.0
+970,XPS 13,2 in 1 Convertible,i7,16,64GB,Windows 10,3.0
+971,Latitude E7470,Ultrabook,i7,8,256GB,Windows 10,3.0
+972,Alienware 17,Gaming,i7,32,256GB,Windows 10,3.0
+980,Inspiron 7579,2 in 1 Convertible,i7,12,64GB,Windows 10,2.0
+985,Inspiron 3567,Notebook,i5,4,500GB,Windows 10,1.0
+988,Inspiron 5567,Notebook,i7,8,1TB,Windows 10,2.0
+989,Latitude 5480,Notebook,i5,8,128GB,Windows 10,2.0
+994,Inspiron 5378,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+1002,Vostro 3568,Notebook,i3,4,128GB,Windows 10,1.0
+1010,Inspiron 7567,Gaming,i5,8,64GB,Windows 10,2.0
+1020,Inspiron 5568,2 in 1 Convertible,i3,4,1TB,Windows 10,2.0
+1024,Latitude E5570,Notebook,i5,8,500GB,Windows 10,2.0
+1028,XPS 13,Ultrabook,i5,8,256GB,Windows 10,2.0
+1038,Latitude E5570,Notebook,i5,8,256GB,Windows 7,2.0
+1052,Inspiron 5578,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+1054,XPS 13,Ultrabook,i7,16,1TB,Windows 10,3.0
+1058,Inspiron 7378,2 in 1 Convertible,i7,12,256GB,Windows 10,2.0
+1062,Inspiron 3567,Notebook,i5,4,1TB,Windows 10,1.0
+1063,Inspiron 5567,Notebook,i7,16,64GB,Windows 10,2.0
+1065,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+1067,Inspiron 5368,2 in 1 Convertible,i7,8,256GB,Windows 10,2.0
+1068,Alienware 15,Gaming,i7,16,256GB,Windows 10,2.0
+1070,Latitude 3570,Notebook,i3,4,500GB,Windows 10,1.0
+1084,Vostro 3568,Notebook,i5,8,256GB,Windows 10,2.0
+1093,Inspiron 5370,Ultrabook,i5,4,256GB,Windows 10,2.0
+1096,Inspiron 5567,Notebook,i5,8,1TB,Windows 10,1.0
+1100,Latitude E5270,Ultrabook,i3,4,500GB,Windows 7,2.0
+1101,Latitude E5270,Ultrabook,i3,4,128GB,Windows 7,2.0
+1105,Latitude E5270,Ultrabook,i5,8,256GB,Windows 7,2.0
+1111,Vostro 3559,Notebook,i5,4,500GB,Windows 7,2.0
+1115,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+1123,Latitude E5570,Notebook,i5,4,500GB,Linux,1.0
+1137,Inspiron 5567,Notebook,i5,8,1TB,Windows 10,2.0
+1147,Vostro 5568,Notebook,i7,8,256GB,Windows 10,2.0
+1153,Inspiron 7567,Gaming,i7,8,1TB,Windows 10,2.0
+1154,XPS 15,Notebook,i5,8,256GB,Windows 10,3.0
+1165,Inspiron 7567,Gaming,i7,8,128GB,Windows 10,2.0
+1182,Vostro 5568,Notebook,i7,8,256GB,Linux,2.0
+1186,Inspiron 5578,2 in 1 Convertible,i7,16,64GB,Windows 10,2.0
+1188,XPS 13,Ultrabook,i5,8,256GB,Linux,2.0
+1194,Inspiron 7378,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+1200,Inspiron 5567,Notebook,i3,4,128GB,Windows 10,1.0
+1202,Inspiron 5579,2 in 1 Convertible,i7,16,64GB,Windows 10,2.0
+1203,XPS 13,Ultrabook,i7,16,64GB,Windows 10,3.0
+1205,Inspiron 5567,Notebook,i5,8,256GB,Windows 10,2.0
+1213,Inspiron 7579,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+1223,Latitude E7270,Ultrabook,i5,8,256GB,Windows 7,2.0
+1224,Inspiron 5578,2 in 1 Convertible,i3,4,500GB,Windows 10,1.0
+1226,XPS 13,Ultrabook,i7,8,256GB,Windows 10,2.0
+1227,Vostro 3568,Notebook,i5,4,1TB,Linux,1.0
+1232,Inspiron 3567,Notebook,i3,8,1TB,Windows 10,1.0
+1237,Vostro 3559,Notebook,i5,4,500GB,Windows 7,2.0
+1243,Inspiron 7779,2 in 1 Convertible,i7,16,64GB,Windows 10,2.0
+1246,Latitude 5480,Notebook,i5,4,500GB,Windows 10,2.0
+1249,XPS 13,2 in 1 Convertible,i5,8,256GB,Windows 10,2.0
+1257,Vostro 3568,Notebook,i3,4,500GB,Windows 10,1.0
+1262,Inspiron 3567,Notebook,i3,6,1TB,Windows 10,1.0
+1267,Inspiron 3567,Notebook,i7,8,1TB,Linux,2.0
+1276,Inspiron 3567,Notebook,i3,6,1TB,Windows 10,1.0
+1281,Inspiron 3567,Notebook,i7,8,1TB,Linux,2.0
+1290,Inspiron 3567,Notebook,i3,6,1TB,Windows 10,1.0
+1295,Inspiron 3567,Notebook,i7,8,1TB,Linux,2.0

@@ -1,0 +1,110 @@
+html, body{
+    background: #EFEEEE
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-y: hidden;
+    margin-right: 10px;
+    /* border: 5px solid green; */
+}
+
+
+/* CLASSES */
+
+.jumbotron{
+    /* border: 2px solid blue; */
+    height: 10%;
+    background: #9BD7D1;
+    color: white;
+    border-radius: 0px;
+}
+
+
+
+/* IDs */
+
+#micArea{
+    padding: 0px;
+    margin: 0px;
+    /* border: 10px solid yellow; */
+}
+
+#kioskHeading{
+    color: white;
+    text-align: center;
+}
+
+#micArea{
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+#micIcon{
+    padding: 3%;
+    position: absolute;
+    /* background: blue; */
+    left: 35%;
+    top: 25%;
+    height: 100%;
+    width: 29%;
+    /* border: 2px solid green; */
+}
+
+#micIconID{
+    border-radius: 55%;
+    /* border: 2px solid white; */
+    width: 88%;
+    height: 45%;
+    margin: 10px;
+}
+
+#textAreaID{
+    position: relative;
+    width: 19%;
+}
+
+#submitBTN{
+    overflow:hidden;
+    position: absolute;
+    top: 88%;
+    right: 47%;
+    width: 7%;
+}
+
+#transcriptForm{
+    background: #1c313a;
+    color: white;
+    border: 0px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    bottom: 15%;
+    left: 34.5%;
+}
+
+.operateButtons{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    display: block;
+    bottom: 12%;
+    width: 100%;
+}
+
+#pauseBTN{
+    position: absolute;
+    overflow: hidden;
+    width: 7%;
+    right: 58%;
+}
+
+#clearBTN{
+    position: absolute;
+    overflow: hidden;
+    width: 7%;
+    left: 57%;
+}
+
+.btn{
+    padding: 0px 0px;
+}

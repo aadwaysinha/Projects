@@ -1,0 +1,16 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+
+.p5{
+    flex: 1;
+    margin: auto;
+}
+
+.p5Canvas{
+    flex: 1;
+    margin: auto;
+}

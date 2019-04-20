@@ -32,10 +32,11 @@ int main()
     string question;
     question = "This is a test question with a question mark at the end?\n\n";
     cout<<question<<endl;
-    cout<<"A) OptionOne\t\tB)OptionTwo"<<endl;
+    cout<<"A) OptionOne\t\tB)OptionTwo"<<endl
     cout<<"C) OptionThree\t\tD)OptionFour"<<endl<<endl;
     cout<<"Provide correct answer sequence for the given question\n\n";
     string correctAnswers;
+
     cin>>correctAnswers;
 
     ///All possible answer sequences
