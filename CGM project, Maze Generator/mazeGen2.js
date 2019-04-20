@@ -1,7 +1,7 @@
 console.log('MaxGen2 is connected');
 
 var len = 40;
-var gridSide = 600;
+var gridSide = 500;
 var rows = gridSide/len;
 var cols = rows;
 var grid = [];
